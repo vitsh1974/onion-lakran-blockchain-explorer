@@ -86,7 +86,7 @@ The key features of the Onion Monero Blockchain Explorer are:
 
 Current development branch:
 
- - https://github.com/moneroexamples/onion-monero-blockchain-explorer/tree/devel
+ - https://github.com/moneroexamples/onion-lakran-blockchain-explorer/tree/devel
 
 
 
@@ -125,10 +125,10 @@ as follows:
 cd ~
 
 # download the source code
-git clone https://github.com/moneroexamples/onion-monero-blockchain-explorer.git
+git clone https://github.com/moneroexamples/onion-lakran-blockchain-explorer.git
 
 # enter the downloaded sourced code folder
-cd onion-monero-blockchain-explorer
+cd onion-lakran-blockchain-explorer
 
 # make a build folder and enter it
 mkdir build && cd build
@@ -161,7 +161,7 @@ You can use `--bc-path` option if its in different location.
 Example output:
 
 ```bash
-[mwo@arch onion-monero-blockchain-explorer]$ ./xmrblocks
+[mwo@arch onion-lakran-blockchain-explorer]$ ./xmrblocks
 2016-May-28 10:04:49.160280 Blockchain initialized. last block: 1056761, d0.h0.m12.s47 time ago, current difficulty: 1517857750
 (2016-05-28 02:04:49) [INFO    ] Crow/0.1 server is running, local port 8081
 ```
@@ -227,10 +227,10 @@ Example usage, defined as bash aliases.
 
 ```bash
 # for mainnet explorer
-alias xmrblocksmainnet='~/onion-monero-blockchain-explorer/build/xmrblocks    --port 8081 --testnet-url "http://139.162.32.245:8082" --enable-pusher --enable-emission-monitor'
+alias xmrblocksmainnet='~/onion-lakran-blockchain-explorer/build/xmrblocks    --port 8081 --testnet-url "http://139.162.32.245:8082" --enable-pusher --enable-emission-monitor'
 
 # for testnet explorer
-alias xmrblockstestnet='~/onion-monero-blockchain-explorer/build/xmrblocks -t --port 8082 --mainnet-url "http://139.162.32.245:8081" --enable-pusher --enable-emission-monitor'
+alias xmrblockstestnet='~/onion-lakran-blockchain-explorer/build/xmrblocks -t --port 8082 --mainnet-url "http://139.162.32.245:8081" --enable-pusher --enable-emission-monitor'
 ```
 
 These are aliases similar to those used for http://139.162.32.245:8081/ and http://139.162.32.245:8082/, respectively.
